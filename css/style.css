@@ -13,7 +13,7 @@ a {
 }
 
 header {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     background-color: white;
@@ -142,7 +142,7 @@ header {
 }
 
 .s-all .right img {
-    width: 100%;
+    width: 80%;
 }
 
 @font-face {
@@ -247,21 +247,16 @@ p {
 .offers-box {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+   
 }
 
-.offers-bottom {
-    padding: 20px;
-    text-align: center;
-}
+
 
 .offers-box {
     height: 30%;
 }
 
-.offers-bottom p {
-    padding: 20px 0;
-}
+
 
 .left-box {
     background-image: linear-gradient(to right top, #d16ba5, #d670a4, #da75a4, #de7aa3, #e27fa3, #e189bb, #dd94d1, #d4a1e6, #a9bcff, #6dd6ff, #3cebff, #5ffbf1);
@@ -343,18 +338,21 @@ p {
         margin: 0;
     }
   
- #Credit .main {
+ #Credit .main,.offers-all {
      width: 100%;
      
      display: flex;
      flex-direction: column;
  }   
- .box{
+ .box,.offers-box{
      width: 100%;
      padding-bottom: 1rem;
  }
- .left,.right {
+ .left,.right,.offers-box {
      width: 47%;
  }
-
+.offers-all{
+    align-items: center;
+    
+}
 }
