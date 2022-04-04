@@ -331,13 +331,24 @@ p {
     header  a , header span{
         display: none;
     }
+    .s-all .right img{
+      background-size:contain;
+      position: relative;
+    }
     .container1 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: 0;
     }
-  
+    .paragrap,.paragrap1{
+        padding: 10%;
+    }
+  .btn-more{
+     position: absolute;
+     bottom: 10%;
+     margin-right: 5%;
+  }
  #Credit .main,.offers-all {
      width: 100%;
      
