@@ -349,15 +349,21 @@ p {
      bottom: 10%;
      margin-right: 5%;
   }
+  #Slider{
+      display: flex;
+      flex-direction: column;
+  }
  #Credit .main,.offers-all {
      width: 100%;
      
      display: flex;
      flex-direction: column;
+     justify-content: center;
  }   
  .box,.offers-box{
+     margin-top: 3rem;
      width: 100%;
-     padding-bottom: 1rem;
+     padding-bottom: 5rem;
  }
  .left,.right,.offers-box {
      width: 47%;
